@@ -2,14 +2,15 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 body{
     font-family: 'Open Sans', sans-serif;
 }
 .nav-title{
     color: var(--dark-01, #181818);
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
 .primary {
     color: #FD6E0A;
@@ -23,19 +24,73 @@ nav li{
     margin-right: 50px;
 }
 .button{
-    width: 80px;
+    width: 96px;
     height: 27px;
     background-color: #FD6E0A;
     color: aliceblue;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 0;
     font-family: Open Sans;
-font-size: 20px;
-line-height: 24px;
-font-style: normal;
-font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 700;
 
 }
+.button-two{
+    width: 100px;
+    height: 27px;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    border-radius: 2px;
+    border: 0;
+    font-family: Open Sans;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.button-three{
+    width: 150px;
+    height: 27px;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    border-radius: 2px;
+    border: 0;
+    font-family: Open Sans;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    }
+
 nav a{
     text-decoration: none;
+}
+.header{
+    background-color: #FFF8F3;
+}
+nav h2{
+    font-family: Open Sans;
+    font-size: 45px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;   
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.paraghraph{
+    font-style: normal;
+}
+
+.banner .profile picture{
+    width: 10px;
+    height: 200px;
 }
