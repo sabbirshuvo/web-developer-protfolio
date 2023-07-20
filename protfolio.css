@@ -126,4 +126,41 @@ nav h2{
     font-size: 35px;
     font-weight: 700;
 }
-  
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .about-info-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  #What-i-do-descriptn{
+    padding: 30px 150px;
+  }
+  .skills-container{
+    display: flex;
+    gap: 24px;
+  }
+  .skill-description{
+    padding: 30px;
+    color: #757575;
+  }
+  .skill{
+    padding: 30px;
+    border-radius:5px ;
+    background:#FFF8F3 ;
+    box-shadow: 0px  6px  20px  0px ;
+
+    
+  }
+  main section{
+    margin-top: 130px;
+  }
+  .resume-coloum-title{
+    color: #474747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
